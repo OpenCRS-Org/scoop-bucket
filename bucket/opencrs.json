@@ -1,36 +1,34 @@
 {
-    "version": "0.0.0",
-    "description": "Tooling for OpenCRS, the Open Creative Requirements Specification",
-    "homepage": "https://opencrs.dev",
-    "license": "Apache-2.0",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.0.0/opencrs-cli-x86_64-pc-windows-msvc.zip",
-            "hash": "0000000000000000000000000000000000000000000000000000000000000000",
-            "extract_dir": "opencrs-cli-x86_64-pc-windows-msvc"
-        },
-        "arm64": {
-            "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.0.0/opencrs-cli-aarch64-pc-windows-msvc.zip",
-            "hash": "0000000000000000000000000000000000000000000000000000000000000000",
-            "extract_dir": "opencrs-cli-aarch64-pc-windows-msvc"
-        }
+  "version": "0.1.0-rc.2",
+  "description": "Tooling for OpenCRS, the Open Creative Requirements Specification",
+  "homepage": "https://opencrs.dev",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.1.0-rc.2/opencrs-cli-x86_64-pc-windows-msvc.zip",
+      "hash": "22e9ed63faf616c05f2a70ace1c272748bf2af004b513538dfb6adc60100dec5"
     },
-    "bin": "opencrs.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v$version/opencrs-cli-x86_64-pc-windows-msvc.zip",
-                "hash": {
-                    "url": "$url.sha256"
-                }
-            },
-            "arm64": {
-                "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v$version/opencrs-cli-aarch64-pc-windows-msvc.zip",
-                "hash": {
-                    "url": "$url.sha256"
-                }
-            }
-        }
+    "arm64": {
+      "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.1.0-rc.2/opencrs-cli-aarch64-pc-windows-msvc.zip",
+      "hash": "3284f9ee19a2ea5609b7ecf4eca3cebf83cf780f37014003f5477232ec92417b"
     }
+  },
+  "bin": "opencrs.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v$version/opencrs-cli-x86_64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      },
+      "arm64": {
+        "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v$version/opencrs-cli-aarch64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    }
+  }
 }
