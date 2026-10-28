@@ -1,16 +1,16 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tooling for OpenCRS, the Open Creative Requirements Specification",
   "homepage": "https://opencrs.dev",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.1.1/opencrs-cli-x86_64-pc-windows-msvc.zip",
-      "hash": "3d69da894bf861a82ba76eb6df2bb00cbcd49ca199260754ecae31c2a28fc19e"
+      "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.1.2/opencrs-cli-x86_64-pc-windows-msvc.zip",
+      "hash": "f96df0d0db2e8578268d1fe2053fa538488272bc2a3ba3b986cf216725d3415b"
     },
     "arm64": {
-      "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.1.1/opencrs-cli-aarch64-pc-windows-msvc.zip",
-      "hash": "91670bbe4cf90439ab49823fba288e294a7f23ce5a33b8e50379a67d66752903"
+      "url": "https://github.com/OpenCRS-Org/opencrs/releases/download/v0.1.2/opencrs-cli-aarch64-pc-windows-msvc.zip",
+      "hash": "eb38c94b6c434ce8734db1c686246dfeb1a2926d919c2ac8970c63408b270754"
     }
   },
   "bin": "opencrs.exe",
